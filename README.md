@@ -1,32 +1,36 @@
-# Measuring Dependency Hallucination in Generated Code
+# Software Quality Journal Manuscript and Public Artifact
 
-This repository contains the manuscript source and the compiled PDF for the
-study of dependency-hallucination measurement in generated code.
+This repository contains the submission source and the public companion
+artifact for the manuscript prepared for *Software Quality Journal*.
 
-## Manuscript
+## Contents
 
-The source is in `manuscript/main.tex`. Build it with XeLaTeX from the
-`manuscript/` directory:
+- `manuscript/`: Springer manuscript source, bibliography, class/style files,
+  metadata, and the compiled PDF.
+- `artifact/public-sanitized.zip`: reproducibility package generated from the
+  current manuscript and validated without row-level annotation data.
+- `artifact/public-sanitized-report.json`: validation summary for the package.
+- `GITHUB_RELEASE_CHECKLIST.md`: repository, archive, and submission checklist.
+- `LICENSE`: repository licensing terms.
 
-```text
-latexmk -xelatex -interaction=nonstopmode -halt-on-error main.tex
-```
+The public artifact excludes raw prompts and responses, row-level experiment
+data, human annotation rows, candidate lists, compiler logs, third-party
+project trees, local model weights, package caches, and credentials. The
+annotation data are not publicly released.
 
-The current authors are Haonan Wang and Shiyong Xiong, with Xiong as
-corresponding author. The affiliation is the School of Computer Science,
-Chongqing University of Posts and Telecommunications, Chongqing 400065,
-China. Corresponding-author email: xiongsy@cqupt.edu.cn.
+## Build the manuscript
 
-## Data and artifact scope
+From `manuscript/`, compile with XeLaTeX and the included bibliography and
+style files. The checked-in `main.pdf` is a convenience copy corresponding to
+the checked-in source.
 
-The public release does not include raw prompts or responses, row-level
-annotations or adjudication, registry-missing candidate lists, compiler logs,
-third-party project trees, local model weights, or package-manager caches.
-Annotator consent was obtained; no personal or sensitive information was
-collected, and row-level annotations are not authorized for public release.
+## Authors
 
-The public sanitized artifact will be added only after it is regenerated from
-the final manuscript and validated. The older August 2026 archive is not
-included because it predates this manuscript revision.
+- Haonan Wang, first author
+- Shiyong Xiong, corresponding author: `xiongsy@cqupt.edu.cn`
 
-See `GITHUB_RELEASE_CHECKLIST.md` for the public/private boundary.
+The public artifact is archived at Zenodo:
+https://doi.org/10.5281/zenodo.23237776
+
+Later manuscript or artifact changes should be published as a new versioned
+GitHub and Zenodo release rather than replacing the existing archive record.
