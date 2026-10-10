@@ -1,0 +1,19 @@
+{
+  "manifest_file_hash_checks": 124,
+  "row_level_data_files": 0,
+  "raw_prompt_files": 0,
+  "raw_response_files": 0,
+  "annotation_row_files": 0,
+  "core_assertions": 40,
+  "credential_findings": 0,
+  "local_absolute_path_findings": 0,
+  "new_experiment_checks": 40,
+  "status": "pass",
+  "undeclared_files": 0,
+  "source_review_zip_sha256": "23a8af24ea020f10a92de98bc5ea1a5f3d20cc385d299dd90d71936f2e044570",
+  "manuscript_pdf_sha256": "a17c95375f257b9014a464d5723db7d451b0dbfded1259064e2fbc8d5938858a",
+  "zip_path": "public-sanitized.zip",
+  "zip_bytes": 696876,
+  "zip_sha256": "6bf11cc1fdae4a268490a934e4989823b546b2b138b582de52c72c80c6f5caf5",
+  "zip_members": 126
+}
