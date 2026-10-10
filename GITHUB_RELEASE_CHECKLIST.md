@@ -78,5 +78,5 @@ The supplied author list is **Haonan Wang (王浩楠)** and corresponding author
 `submission_metadata_sqj.tex`. Annotator consent, compensation, data-release
 restriction, no-personal-data status, author contribution roles, and
 biographies are recorded. Photographs if required remain pending. The current
-archive DOI is https://doi.org/10.5281/zenodo.23274753. The supplied GitHub repository is
+archive concept DOI is https://doi.org/10.5281/zenodo.23273775. The supplied GitHub repository is
 <https://github.com/whaonan767-tech/paper>.
