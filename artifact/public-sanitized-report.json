@@ -11,9 +11,9 @@
   "status": "pass",
   "undeclared_files": 0,
   "source_review_zip_sha256": "23a8af24ea020f10a92de98bc5ea1a5f3d20cc385d299dd90d71936f2e044570",
-  "manuscript_pdf_sha256": "3448d523242c34e7caa7fe582b8eee809cace9510f461e7f37d37a07e6788da6",
+  "manuscript_pdf_sha256": "8c26318b2a9011b23ce000e2ff7bff157b13e059caa3eeca2c3030cf03efa4ec",
   "zip_path": "public-sanitized.zip",
-  "zip_bytes": 672881,
-  "zip_sha256": "25194f53a66ad78f638fb29713884139d7398236e4f74612856eb764272f6ede",
+  "zip_bytes": 672897,
+  "zip_sha256": "5887e79d8b3c68c93047ee05aef0fa9d919af890f8967336ba1e2ff4c384fd7e",
   "zip_members": 121
 }
