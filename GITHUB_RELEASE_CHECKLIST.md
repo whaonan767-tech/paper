@@ -60,7 +60,8 @@ validated after the final source changes.
 - Rebuild `main.pdf` from `main.tex`, inspect all pages and figures/tables, and
   verify that no author-input placeholders remain in the submission copy.
 - Rebuild and validate the public sanitized artifact from the final source;
-  check its manifest and hashes, then create the persistent archive release.
+  check its manifest and hashes, then create a new versioned archive release
+  if the source or artifact differs from the DOI-linked release.
 - Select an appropriate license for the manuscript, code, and aggregate data;
   check third-party notices and do not relicense material whose rights are not
   yours.
@@ -76,6 +77,6 @@ The supplied author list is **Haonan Wang (王浩楠)** and corresponding author
 **Shiyong Xiong (熊仕勇)**. The supplied affiliation and email are recorded in
 `submission_metadata_sqj.tex`. Annotator consent, compensation, data-release
 restriction, no-personal-data status, author contribution roles, and
-biographies are recorded. Photographs if required and the archive DOI remain
-pending. The supplied GitHub repository is
+biographies are recorded. Photographs if required remain pending. The current
+archive DOI is https://doi.org/10.5281/zenodo.23237776. The supplied GitHub repository is
 <https://github.com/whaonan767-tech/paper>.
