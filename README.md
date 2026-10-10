@@ -30,7 +30,7 @@ the checked-in source.
 - Shiyong Xiong, corresponding author: `xiongsy@cqupt.edu.cn`
 
 The public artifact is archived at Zenodo:
-https://doi.org/10.5281/zenodo.23274753
+https://doi.org/10.5281/zenodo.23273775
 
 Later manuscript or artifact changes should be published as a new versioned
 GitHub and Zenodo release rather than replacing the existing archive record.
